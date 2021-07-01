@@ -7,7 +7,7 @@ const App=()=> {
   return (
     <Router>
       <Route path="/group-chat-app/" exact component={Join} />
-      <Route path="/Chat" component={Chat} />
+      <Route path="/Chat" exact component={Chat} />
     </Router>
   );
 }
